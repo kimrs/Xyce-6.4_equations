@@ -1,0 +1,15 @@
+If you are inside Sandia, you can check out the test suite directly from our CVS repository.
+  -  Checkout the test suite (cvs -d :ext:joseki:/Net/Proj/Xyce/CVS checkout Xyce_Regression)
+  - If on the SRN and desiring the full test suite to include radiation models,
+    check out the export controlled test cases, too:
+    cd Xyce_Regression
+    cvs -d :ext:charleston:/Net/Proj/Xyce/CVS checkout Xyce_SandiaRegression
+
+If you are external to Sandia, you can obtain the test suite from the download area of our
+external web site at http://xyce.sandia.gov/.  Only the non-export controlled test cases are
+available outside of the labs.
+
+The procedure for running the test suite is described in the
+Documentation and Tutorials section of the Xyce web site at
+http://xyce.sandia.gov/ under "Running the Xyce Regression Suite."
+
